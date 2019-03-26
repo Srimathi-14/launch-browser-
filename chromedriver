@@ -1,0 +1,17 @@
+package day1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class checkbox {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:/Users/srimathi.P/Desktop/Selenium Browser Jar/chromedriver.exe");
+		WebDriver launch=new ChromeDriver();
+		launch.get("https://www.google.com");
+    Thread.sleep(2000);
+    }
+    }
